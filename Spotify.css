@@ -1,0 +1,499 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+    background-color:black;
+
+}
+*{
+    margin: 0;
+    padding: 0px;                      
+}
+nav{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: black;
+    width: 25%;
+    height: 688px;
+   
+    padding: 9px;
+    border: 0;
+    display: flex;
+    float: left;
+
+} 
+nav ul{
+
+    width: 405px;
+    background-color: #121212;
+    list-style-type: none;
+    height: 148px;
+   
+    color: #fff;
+    border-radius: 15px;
+}  
+nav ul li{
+    padding: 0 12px;
+    padding-top: 15px;
+    
+    
+}
+.brand img{
+    width:45px;
+    padding: 0 8px;
+    text-decoration: none;
+    
+
+
+}   
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+   
+}
+.left_div{
+    width: 25%;
+    height: 50px;
+    background-color: #121212;
+}
+.container{
+    width: 1265px;
+    height: 700px;
+    float: left;
+    background-color: #121212;
+    border-radius: 15px;
+    margin-top: 8px;
+    margin-left: -17px;
+   
+
+}
+#logo{
+    width: 25px;
+    height: 25px;
+
+}
+table{
+    padding-left: 18px;
+    padding-top: 12px;
+}
+.td1{
+    height: 30px;
+    padding: 5px;
+}
+#home-icon{
+    filter: invert(1);
+}
+#search-icon{
+    filter: invert(1);
+}
+.right-botum-div{
+    width: 405px;
+    height: 540px;
+    background-color:#121212;
+    color: #fff;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.main-botum{
+    width: 1688px;
+    height: 100px;
+    background: linear-gradient(90deg, rgba(255,0,238,1) 26%, rgba(245,207,243,1) 38%, rgba(248,248,248,1) 45%, rgba(219,221,240,1) 52%, rgba(82,95,240,1) 87%, rgba(5,16,245,1) 94%);
+    float: left;
+    margin-left: 10px;
+
+    margin-top: 10px;
+}
+
+    
+.lybrary{
+         background-color: #121212; 
+        float: left;
+        margin-left: 18px;
+        margin-top: 18px;
+        width: 25px;
+        float: left;
+    }
+.y-library{
+padding-top: 20px;
+margin-left: 30px;
+opacity: 50%;
+float: left;
+
+    
+    
+}
+.plus{
+    filter: invert(1);
+    margin-top: 21px;
+    margin-left: 207px;
+    width: 16px;
+
+
+}
+.playlist{
+    width: 390px;
+    height: 120px;
+    border-radius: 15px;
+    margin-left: 9px;
+    margin-top: 30px;
+    background-color: #242424;
+}
+.brows{
+    width: 390px;
+    height: 120px;
+    border-radius: 15px;
+    margin-left: 9px;
+    margin-top: 30px;
+    background-color: #242424;
+
+}
+.p1{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: large;
+    font-weight: bold;
+}
+.p2{
+    padding-left: 20px;
+    font-size: medium;
+    
+}
+
+
+.button{
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: 800;
+    margin-left: 5%;
+    margin-top: 10px;
+    width: 125px;
+    height: 35px;
+    border-radius: 15px;
+    border-color: #fff;
+    
+    
+
+}
+.button:hover{
+    margin-left: 4.5;
+    margin-top: 9px;
+    width: 127px;
+    height: 37px;
+    border-radius: 14px;
+
+}
+.Privacy{
+    width: 350px;
+    
+    border-style: none;
+    text-align: left;
+    font-size: 7px;
+
+    
+    
+
+}
+.Privacy1{
+    width: 200px;
+    border-style: none;
+    text-align: left;
+    font-size: 7px;
+
+    
+    
+
+}
+.Privacy2{
+    width: 100px;
+    border-style: none;
+    text-align: left;
+    font-size: 7px;
+
+    
+    
+
+}
+.tab-div{
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.b-icon{
+    width: 10px;
+    height: 10px;
+    filter: invert(1);
+}
+.button1{
+    background-color: #121212;
+    color: white;
+    cursor: pointer;
+    background: transparent;
+    width: 80px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 40px;
+    border-radius: 15px;
+    border-color: white;
+
+}
+.button1:hover{
+    width: 85px;
+    height: 35px;
+    border-radius: 20px;
+    margin-left: 27px;
+    margin-top: 37px;
+
+}
+.top-div{
+    width: 100%;
+    height: 70px;
+    
+
+}
+.aro{
+    width: 15px;
+    filter: invert(1);
+    padding: 25px;
+    cursor: no-drop;
+    border-radius: 100%;
+    float: left;
+    
+}
+
+.sing-up{
+    
+    margin-top: 23px;
+    font-weight: bold;
+}
+.a-singup{
+    color: rgb(155, 148, 148);
+    text-decoration:none ;
+    font-family:  'Varela Round', sans-serif;
+}
+.a-singup:hover{
+    font-size:12px;
+    color: white;
+
+
+}
+.sing-up-div{
+    float: right;
+    width: 186px;
+    height: 50px;
+    
+    margin-right: 0px;
+
+}
+.button2{
+    background-color: #121212;
+    color: black;
+    font-size: 13px;
+    font-weight: bolder;
+    cursor: pointer;
+    background-color: white;
+    width: 100px;
+    height: 50px;
+    
+    border-radius: 40px;
+    border-color: white;
+    float: right;
+    margin-top: -30px;
+    margin-right: 20px;
+
+}.button2:hover{
+    margin-right: 20px;
+    margin-top: -31px;
+    width: 101px;
+    height:51px ;
+}
+.main-div-right{
+    width: 100%;
+    height: 540px;
+   
+    
+background: linear-gradient(167deg, rgba(45,45,45,1) 0%, rgba(58,58,58,1) 24%, rgba(18,18,18,1) 53%);
+}
+.music{
+    background-color: #282828;
+    width: 175px;
+    height: 250px;
+    float: left;
+    margin-left: 34px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+.left-tittle{
+    color: white;
+    margin-right: 500px;
+    margin-left: 30px;
+    padding-top: 0px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family:  'Varela Round', sans-serif;
+
+}
+.left-tittle:hover{
+    text-decoration: underline;
+    text-underline-position: inherit;
+    cursor: pointer;
+}
+.left-icon{
+    color: rgb(176, 176, 176);
+    margin-top: -10px;
+    float: right;
+    font-family:  'Varela Round', sans-serif;
+    margin-right: 20px;
+    font-size: 10px;
+    
+}
+.music:hover{
+    cursor: pointer;
+    background-color: dimgray;
+    
+}
+.music-img{
+    padding: 15px;
+    width: 145px;
+    height: 150px;
+    border-radius: 13%;
+    
+}
+.music-text{
+    color: white;
+    font-family:  'Varela Round', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.music-tdc{
+    color: rgb(120, 119, 119);
+    font-family:  'Varela Round', sans-serif;
+    font-size: 10px;
+    margin-left: 15px;
+    margin-top: 5px;
+    font-weight: 600;
+
+
+}
+.list-1{
+    margin-left: 34px;
+    margin-top: 100px;
+    float: left;
+    list-style-type: none;
+    font-family:  'Varela Round', sans-serif;
+}
+.list-2{
+    margin-left: 145px;
+    margin-top: 100px;
+    float: left;
+    
+    list-style-type: none;
+    font-family:  'Varela Round', sans-serif;
+}
+.list-3{
+    margin-left: 130px;
+    margin-top: 100px;
+    float: left;
+    
+    list-style-type: none;
+    font-family:  'Varela Round', sans-serif;
+}
+.head{
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+
+    
+}
+.list-text{
+    margin-top: 15px;
+    color: rgb(120, 119, 119);
+    font-weight: bold;
+    font-size: 10px;
+    cursor: pointer;
+
+
+}
+hr{
+    margin-top: 533px;
+    width: 97%;
+    margin-left: 20px;
+}
+.app-icon{
+    margin-right: 20px;
+    filter: invert(1);
+    float: right;
+    width: 20px;
+    background-color:white;
+    border-radius: 50%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.app-icon:hover{
+    width: 21px;
+
+}
+
+.app-icon-div {
+    float: right;
+    margin-top: 88px;
+    width: 174px;
+    
+    height: 50px;
+}
+.s2023{
+    color: rgb(120, 119, 119);
+    font-size: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-family:  'Varela Round', sans-serif;
+
+}
+.bottum-head{
+    color: #fff;
+    font-family:  'Varela Round', sans-serif;
+    font-size: 8px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 0px;
+    
+
+}
+.bottum-text{
+    color: #fff;
+    font-family:  'Varela Round', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: -12px;
+    margin-left: 20px;
+    margin-right: 500px;
+
+}
+.button4{
+    background-color: #121212;
+    color: black;
+    font-size: 13px;
+    font-weight: bolder;
+    cursor: pointer;
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    float: left;
+    border-radius: 40px;
+    border-color: white;
+    float: right;
+    margin-top: 25px;
+    margin-right: 20px;
+   
+}
+.button4:hover{
+    margin-top: 24px;
+    margin-right: 19px;
+    width: 152px;
+    height:52px ;
+}
+.button4-div{
+    width: 150px;
+    height: 60px;
+
+}
